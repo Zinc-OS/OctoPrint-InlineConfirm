@@ -16,7 +16,7 @@ plugin_package = "octoprint_inlineconfirm"
 plugin_name = "OctoPrint-InlineConfirm"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "MORONS IN THE JSON GO BRRRRRRR"
+plugin_version = "1.0.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
