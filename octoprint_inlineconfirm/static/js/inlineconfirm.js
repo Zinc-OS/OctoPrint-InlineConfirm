@@ -44,6 +44,7 @@ $(function () {
                 var setText = function () {
                     $('#state_wrapper .row-fluid.print-control button#job_cancel > span').remove();
                     $('#state_wrapper .row-fluid.print-control button#job_cancel').textNodes().first().replaceWith(' Click again to confirm cancel <span>(' + t-- + ')</span>');
+                    $('#state_wrapper .row-fluid.print-control button#job_cancel').blur();
                 }
                 setTimeout(() => {
                     if (jobCanceling)
